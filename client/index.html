@@ -3,8 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <title>Chat</title>
+    <script src="/socket.io/socket.io.js"></script>
 </head>
 <body>
+    <h1>Chat Room</h1>
 
+    <div class="massage">
+        <p>メッセージを書く予定</p>
+    </div>
+
+    <script>
+    var socket = io.connect();
+    </script>
 </body>
 </html>
