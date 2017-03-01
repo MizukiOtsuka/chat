@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/MizukiOtsuka/chat/issues"
   },
-  "homepage": "https://github.com/MizukiOtsuka/chat#readme"
+  "homepage": "https://github.com/MizukiOtsuka/chat#readme",
+  "dependencies": {
+    "socket.io": "^1.7.3"
+  }
 }
